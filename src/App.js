@@ -1,15 +1,11 @@
 import "./App.css";
 import Todos from "./Todos";
 import SearchBar from "./TodoInput";
-import { useState } from "react";
 
 import {
   ApolloClient,
   InMemoryCache,
   ApolloProvider,
-  useQuery,
-  useMutation,
-  gql,
   HttpLink,
 } from "@apollo/client";
 

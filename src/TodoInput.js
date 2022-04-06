@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useQuery, gql, useMutation } from "@apollo/client";
+import { gql, useMutation } from "@apollo/client";
 import { QUERY_ALL_TASKS } from "./Todos";
 
 const CREATE_TODO_MUTATION = gql`

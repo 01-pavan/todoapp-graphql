@@ -1,4 +1,4 @@
-import { useState, useContext, useRef, useEffect, useMemo } from "react";
+import { useState } from "react";
 import { useQuery, gql, useMutation } from "@apollo/client";
 import TodosFooter from "./TodosFooter";
 
@@ -110,7 +110,7 @@ function Todos() {
     });
   };
 
-  const { data, loading, error } = useQuery(QUERY_ALL_TASKS);
+  const { data, loading } = useQuery(QUERY_ALL_TASKS);
 
   if (data) {
     console.log(data);
