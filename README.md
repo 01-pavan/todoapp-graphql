@@ -6,5 +6,6 @@ Technologies used in the project:
 
 - reactjs
 - graphql
+- hasura graphql
 - apollo client
 - Tailwind Css
