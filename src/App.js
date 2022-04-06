@@ -1,10 +1,8 @@
 import "./App.css";
 import Todos from "./Todos";
-import TodosFooter from "./TodosFooter";
 import SearchBar from "./TodoInput";
 import { useState } from "react";
-import { WebSocketLink } from "@apollo/client/link/ws";
-import todoContext from "./context/todoContext";
+
 import {
   ApolloClient,
   InMemoryCache,
