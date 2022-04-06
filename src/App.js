@@ -18,8 +18,7 @@ function App() {
         timeout: 30000,
       },
       headers: {
-        "x-hasura-admin-secret":
-          "AgmHievKlVQt5xgBJTIiJRzECix2CFtNmvL9x8oagjKJFNL12HQG8ylp7tJCs96t",
+        "x-hasura-admin-secret": process.env.REACT_APP_SECRET_KEY,
       },
     }),
     cache: new InMemoryCache(),
